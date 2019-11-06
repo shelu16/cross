@@ -16,7 +16,7 @@ if (this.readyState == 4 && this.status == 200) {
 document.getElementById("demo").innerHTML = alert(this.responseText);
 }
 };
-xhttp.open("GET", "https://acdhub.service.ncsc.gov.uk/api/ListServicesForUser", true);
+xhttp.open("GET", "https://testapp.redoxengine.com/organization/5064", true);
 xhttp.withCredentials = true;
 xhttp.send();
 }
