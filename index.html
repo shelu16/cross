@@ -16,7 +16,7 @@ if (this.readyState == 4 && this.status == 200) {
 document.getElementById("demo").innerHTML = alert(this.responseText);
 }
 };
-xhttp.open("GET", "https://api.fortmatic.com/v2/dashboard/api_user/info", true);
+xhttp.open("GET", "https://myapi.emsisoft.com/auth/login", true);
 xhttp.withCredentials = true;
 xhttp.send();
 }
