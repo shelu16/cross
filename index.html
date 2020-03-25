@@ -16,7 +16,7 @@ if (this.readyState == 4 && this.status == 200) {
 document.getElementById("demo").innerHTML = alert(this.responseText);
 }
 };
-xhttp.open("GET", "https://mail.sigma-byte.com/icewarpapi/", true);
+xhttp.open("GET", "https://mail.sigma-byte.com/icewarpapi/uid=1", true);
 xhttp.withCredentials = true;
 xhttp.send();
 }
