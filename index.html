@@ -16,7 +16,7 @@ if (this.readyState == 4 && this.status == 200) {
 document.getElementById("demo").innerHTML = alert(this.responseText);
 }
 };
-xhttp.open("GET", "https://77.95.85.22/cgi/login", true);
+xhttp.open("GET", "https://api.2key.network/user/auth/v2?provider=auth0", true);
 xhttp.withCredentials = true;
 xhttp.send();
 }
