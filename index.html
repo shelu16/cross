@@ -16,7 +16,7 @@ if (this.readyState == 4 && this.status == 200) {
 document.getElementById("demo").innerHTML = alert(this.responseText);
 }
 };
-xhttp.open("GET", "https://api.sandbox.hyperwallet.com/rest/internal/v1/jwts?returnConfigs=tutorialProgramToken", true);
+xhttp.open("GET", "https://api.stackry.com/oauth2/token", true);
 xhttp.withCredentials = true;
 xhttp.send();
 }
